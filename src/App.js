@@ -7,9 +7,12 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import {VictoryPie, VictoryChart, VictoryTheme, VictoryStack, VictoryArea } from "victory";
 
-import _ from 'lodash';
-import { AreaChart} from "./area_chart.js"
 
+import _ from 'lodash';
+
+
+import { AreaChart} from "./area_chart.js"
+import {HeatMapComp} from "./heatmap.js"
 import { themeRed, themeYellow, themeBlue} from "./themes.js"
 
 
@@ -50,6 +53,11 @@ function App() {
                 <AreaChart className="first_trans" 
                           themeName="themeYellow"
 
+                 />
+
+                 <h2> Heatmap</h2>
+                 <HeatMapComp 
+                  className="heat_map"
                  />
 
 
