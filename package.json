@@ -8,6 +8,7 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2",
     "react-vis": "^1.11.7",
+    "spectacle-docs": "^1.0.7",
     "victory": "^33.1.0"
   },
   "scripts": {

@@ -1,22 +1,13 @@
-import { getData} from "./sample_data.js"
-import logo from './logo.svg';
-import inplayer_logo from './inplayer-logo.svg';
 
 import './App.css';
 
-import React, { Component } from "react";
+import React  from "react";
 import { render } from "react-dom";
 import {VictoryPie, VictoryChart, VictoryTheme, VictoryStack, VictoryArea } from "victory";
 
-import { themeRed, themeYellow, themeBlue} from "./themes.js"
+import { getData} from "./sample_data.js"
+import { themes} from "./themes.js"
 
-
-const themes = { 'themeRed': themeRed,
-
-'themeYellow': themeYellow, 
-'themeBlue':
-themeBlue
-}
 
 export  class AreaChart extends React.Component {
   constructor(props) {
@@ -33,7 +24,8 @@ export  class AreaChart extends React.Component {
 
       <VictoryChart
         theme={themes[this.props.themeName]}
-        
+                animate={{ duration: 3000 }}
+
       >
         <VictoryStack
         theme = {themes[this.props.themeName]}

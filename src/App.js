@@ -1,19 +1,14 @@
-import logo from './logo.svg';
 import inplayer_logo from './inplayer-logo.svg';
 
 import './App.css';
 
-import React, { Component } from "react";
-import { render } from "react-dom";
-import {VictoryPie, VictoryChart, VictoryTheme, VictoryStack, VictoryArea } from "victory";
+import React from "react";
 
 
-import _ from 'lodash';
 
 
 import { AreaChart} from "./area_chart.js"
-import {HeatMapComp} from "./heatmap.js"
-import { themeRed, themeYellow, themeBlue} from "./themes.js"
+import {ScatterMap} from "./scatter_map.js"
 
 
 function App() {
@@ -51,13 +46,14 @@ function App() {
 
                            <h2>First transation (age in days)</h2>
                 <AreaChart className="first_trans" 
-                          themeName="themeYellow"
+                          themeName="themeGreen"
 
                  />
 
-                 <h2> Heatmap</h2>
-                 <HeatMapComp 
+                 <h2> Circlemap</h2>
+                 <ScatterMap 
                   className="heat_map"
+                   themeName="themeGreen"
                  />
 
 
@@ -70,13 +66,5 @@ function App() {
 }
 
 
-
-
-
-class PieChart extends Component {
-  render() {
-    return <VictoryPie />;
-  }
-}
 
 export default App;

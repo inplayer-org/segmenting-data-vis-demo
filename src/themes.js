@@ -12,12 +12,22 @@ const themeBlue =
 
   
 }
-const themeYellow =
+const themeGreen =
 {
   area:  { fill: "#c44ab1" },
-     stack:        { colorScale:"green"} 
+     stack:        { colorScale:"green"} ,
+     scatter: {data: {fill: "#c44ab1"}}
 
   
 }
 
-export {themeYellow, themeBlue, themeRed}
+
+const themes = { 'themeRed': themeRed,
+
+'themeGreen': themeGreen, 
+'themeBlue':
+themeBlue
+}
+
+
+export {themes}
