@@ -95,66 +95,14 @@ const sampleData =	{
 { y: 64,  x:19.0 },
 ],
 
-'heat_map': [
+'heat_map':[{"color": "#d4eeb3", "y": 0.0007799187922401147, "act_mean": -1.0, "x": 7.630828937395717e-05}, {"color": "#d4eeb3", "y": 1.000723465177831, "act_mean": -1.0, "x": 0.0004384092314408935}, {"color": "#c0e6b5", "y": 2.00053849587041, "act_mean": -1.0, "x": 0.0009779895119966027}, {"color": "#2163aa", "y": 3.0000720511333596, "act_mean": 0.0, "x": 0.0005011204636599379}, {"color": "#d4eeb3", "y": 4.000499882500826, "act_mean": -1.0, "x": 0.00026843898010187116}, {"color": "#d4eeb3", "y": 5.000803739036105, "act_mean": 474.0, "x": 0.0006792299961209405}, {"color": "#142670", "y": 6.593634690590511e-05, "act_mean": -1.0, "x": 1.0003809411331486}, {"color": "#203089", "y": 1.0009095935277197, "act_mean": -1.0, "x": 1.000288145599308}, {"color": "#243f99", "y": 2.000452123961818, "act_mean": -1.0, "x": 1.00021338535358}, {"color": "#203089", "y": 3.0000248992275504, "act_mean": 0.0, "x": 1.000931206019689}, {"color": "#1d8ebf", "y": 4.0009501295004135, "act_mean": -1.0, "x": 1.000600548917464}, {"color": "#3aaec3", "y": 5.000548489919236, "act_mean": 474.0, "x": 1.000230302879021}, {"color": "#243f99", "y": 0.00013316944575925016, "act_mean": -1.0, "x": 2.0009091283748868}, {"color": "#2350a1", "y": 1.000750409859102, "act_mean": -1.0, "x": 2.000523412580674}, {"color": "#d4eeb3", "y": 2.0004677528597448, "act_mean": -1.0, "x": 2.0006690132408838}, {"color": "#2163aa", "y": 3.000490765889091, "act_mean": 0.0, "x": 2.0002048490902977}, {"color": "#1f78b4", "y": 4.000477401154852, "act_mean": -1.0, "x": 2.0003723846893853}, {"color": "#2a9ec1", "y": 5.00083791799431, "act_mean": 474.0, "x": 2.0003658903857806}, {"color": "#243f99", "y": 0.00031399467721266214, "act_mean": -1.0, "x": 3.0007686475065194}, {"color": "#2350a1", "y": 1.0002760490483307, "act_mean": -1.0, "x": 3.000572625332644}, {"color": "#2163aa", "y": 2.0003529783659446, "act_mean": -1.0, "x": 3.0004528429325465}, {"color": "#d4eeb3", "y": 3.000370351082988, "act_mean": 0.0, "x": 3.0006573994627797}, {"color": "#a2dbb8", "y": 4.000719324122509, "act_mean": -1.0, "x": 3.0004590929778914}, {"color": "#081d58", "y": 5.000906423269164, "act_mean": 2167.0, "x": 3.000412991829114}] 
+,
 
-{ x: 0.009, y: 0.010, fill:"#49b6ff" }, 
-{ x: 0.004, y: 1.008, fill:"#cf30ff" }, 
-{ x: 0.006, y: 2.008, fill:"#f30cff" }, 
-{ x: 0.005, y: 3.005, fill:"#7986ff" }, 
-{ x: 0.001, y: 4.007, fill:"#e718ff" }, 
-{ x: 0.008, y: 5.000, fill:"#7986ff" }, 
-{ x: 0.003, y: 6.010, fill:"#619eff" }, 
-{ x: 0.001, y: 7.003, fill:"#24dbff" }, 
-{ x: 1.010, y: 0.001, fill:"#b649ff" }, 
-{ x: 1.002, y: 1.004, fill:"#926dff" }, 
-{ x: 1.009, y: 2.005, fill:"#aa55ff" }, 
-{ x: 1.010, y: 3.000, fill:"#c33cff" }, 
-{ x: 1.004, y: 4.008, fill:"#24dbff" }, 
-{ x: 1.003, y: 5.001, fill:"#55aaff" }, 
-{ x: 1.006, y: 6.001, fill:"#24dbff" }, 
-{ x: 1.001, y: 7.007, fill:"#619eff" }, 
-{ x: 2.005, y: 0.008, fill:"#0cf3ff" }, 
-{ x: 2.006, y: 1.000, fill:"#7986ff" }, 
-{ x: 2.004, y: 2.005, fill:"#cf30ff" }, 
-{ x: 2.008, y: 3.008, fill:"#7986ff" }, 
-{ x: 2.006, y: 4.005, fill:"#24dbff" }, 
-{ x: 2.006, y: 5.007, fill:"#49b6ff" }, 
-{ x: 2.007, y: 6.004, fill:"#926dff" }, 
-{ x: 2.001, y: 7.004, fill:"#b649ff" }, 
+'heat_map2':          [{"scaling": 0, "feature": "Number of accesses", "__": 2.25, "y": 0.24074111887291325, "real_value": "-1.00", "center_mean": -1.0, "x": 0.0001804516192026816, "color": "#4ebbc2", "act_mean": -1.0, "segment": "Segment_A"}, {"scaling": 0, "feature": "Days since first access", "__": 1.0, "y": 1.240426453572685, "real_value": "-1.00", "center_mean": -1.0, "x": 0.00042237404364314036, "color": "#d4eeb3", "act_mean": -1.0, "segment": "Segment_A"}, {"scaling": 0, "feature": "Number of assets bought", "__": 1.5, "y": 2.2405229062010283, "real_value": "-1.00", "center_mean": -1.0, "x": 0.0006343798686338388, "color": "#a2dbb8", "act_mean": -1.0, "segment": "Segment_A"}, {"scaling": 0.0, "feature": "Days since last purchase", "__": 0.2857142857142857, "y": 3.240001426880563, "real_value": "0.30", "center_mean": 0.0, "x": 0.0004148859784394432, "color": "#d4eeb3", "act_mean": 0.0, "segment": "Segment_A"}, {"scaling": 0.999959826717795, "feature": "Number of logins", "__": 1.0, "y": 4.2407093943937255, "real_value": "-0.94", "center_mean": -1.0, "x": 9.226234584675208e-05, "color": "#c0e6b5", "act_mean": -1.0, "segment": "Segment_A"}, {"scaling": 0.11552522544479649, "feature": "Segment size", "__": 0.11552522544479649, "y": 5.240696160463517, "real_value": "474.00", "center_mean": 474.0, "x": 0.0005243455967651972, "color": "#2163aa", "act_mean": 474.0, "segment": "Segment_A"}, {"scaling": 0.5138164508092832, "feature": "Number of accesses", "__": 0.5, "y": 0.2406829138543754, "real_value": "1.19", "center_mean": -1.0, "x": 1.0009554683230029, "color": "#4ebbc2", "act_mean": -1.0, "segment": "Segment_B"}, {"scaling": 0.9067188601513899, "feature": "Days since first access", "__": 1.0, "y": 1.2403088526848638, "real_value": "548.82", "center_mean": -1.0, "x": 1.0000531286906729, "color": "#1d8ebf", "act_mean": -1.0, "segment": "Segment_B"}, {"scaling": 0.5117661841942323, "feature": "Number of assets bought", "__": 0.35294117647058826, "y": 2.2402351204072577, "real_value": "2.17", "center_mean": -1.0, "x": 1.0005925946873233, "color": "#a2dbb8", "act_mean": -1.0, "segment": "Segment_B"}, {"scaling": 0.0, "feature": "Days since last purchase", "__": 0.23529411764705882, "y": 3.240945048223793, "real_value": "248.28", "center_mean": 0.0, "x": 1.000964970999536, "color": "#d4eeb3", "act_mean": 0.0, "segment": "Segment_B"}, {"scaling": 0.6000662733702057, "feature": "Number of logins", "__": 0.75, "y": 4.240472323996289, "real_value": "2.06", "center_mean": -1.0, "x": 1.0008484008808376, "color": "#1d8ebf", "act_mean": -1.0, "segment": "Segment_B"}, {"scaling": 0.13794784304167682, "feature": "Segment size", "__": 0.13794784304167682, "y": 5.2401311106423485, "real_value": "566.00", "center_mean": 474.0, "x": 1.0008414767148983, "color": "#ffffd9", "act_mean": 474.0, "segment": "Segment_B"}, {"scaling": 0.5658269347562838, "feature": "Number of accesses", "__": 0.5625, "y": 0.24046299639415442, "real_value": "0.01", "center_mean": -1.0, "x": 2.000308733657298, "color": "#4ebbc2", "act_mean": -1.0, "segment": "Segment_C"}, {"scaling": 0.8906391474992817, "feature": "Days since first access", "__": 1.0, "y": 1.240485825228709, "real_value": "659.14", "center_mean": -1.0, "x": 2.0007418472006835, "color": "#1f78b4", "act_mean": -1.0, "segment": "Segment_C"}, {"scaling": 0.5667678242457135, "feature": "Number of assets bought", "__": 0.4, "y": 2.2403435365297044, "real_value": "1.02", "center_mean": -1.0, "x": 2.0001368761187974, "color": "#a2dbb8", "act_mean": -1.0, "segment": "Segment_C"}, {"scaling": 0.0, "feature": "Days since last purchase", "__": 0.2857142857142857, "y": 3.2403004189043183, "real_value": "6.07", "center_mean": 0.0, "x": 2.0003244261696724, "color": "#d4eeb3", "act_mean": 0.0, "segment": "Segment_C"}, {"scaling": 0, "feature": "Number of logins", "__": 1.0, "y": 4.240414901772573, "real_value": "-1.00", "center_mean": -1.0, "x": 2.000165501400466, "color": "#d4eeb3", "act_mean": -1.0, "segment": "Segment_C"}, {"scaling": 0.2183767974652693, "feature": "Segment size", "__": 0.2183767974652693, "y": 5.240774900375814, "real_value": "896.00", "center_mean": 474.0, "x": 2.0004481206575027, "color": "#f8fcc9", "act_mean": 474.0, "segment": "Segment_C"}, {"scaling": 0.5658322547061797, "feature": "Number of accesses", "__": 0.5625, "y": 0.2405223901280016, "real_value": "0.00", "center_mean": -1.0, "x": 3.0007963907007826, "color": "#4ebbc2", "act_mean": -1.0, "segment": "Segment_D"}, {"scaling": 1.001587470231241, "feature": "Days since first access", "__": 1.0, "y": 1.240778213601544, "real_value": "296.94", "center_mean": -1.0, "x": 3.000460630296163, "color": "#a2dbb8", "act_mean": -1.0, "segment": "Segment_D"}, {"scaling": 0.5667736562300482, "feature": "Number of assets bought", "__": 0.4, "y": 2.240674918769867, "real_value": "1.01", "center_mean": -1.0, "x": 3.0008872889518527, "color": "#a2dbb8", "act_mean": -1.0, "segment": "Segment_D"}, {"scaling": 0, "feature": "Days since last purchase", "__": 1.0, "y": 3.2409391113537325, "real_value": "0.00", "center_mean": 0.0, "x": 3.0008004790489986, "color": "#d4eeb3", "act_mean": 0.0, "segment": "Segment_D"}, {"scaling": 0.702811744713421, "feature": "Number of logins", "__": 0.8571428571428571, "y": 4.24087567172487, "real_value": "0.32", "center_mean": -1.0, "x": 3.000040655809437, "color": "#1d8ebf", "act_mean": -1.0, "segment": "Segment_D"}, {"scaling": 0.5281501340482574, "feature": "Segment size", "__": 0.5281501340482574, "y": 5.240475764499425, "real_value": "2167.00", "center_mean": 2167.0, "x": 3.0002765630724513, "color": "#4ebbc2", "act_mean": 2167.0, "segment": "Segment_D"}] 
 
-],
+,
 
-'heat_map2':[
-
-
-
-{ x: 0.062, y: 0.000, fill:"#db24ff" }, 
-{ x: 0.062, y: 1.009, fill:"#619eff" }, 
-{ x: 0.065, y: 2.000, fill:"#cf30ff" }, 
-{ x: 0.068, y: 3.001, fill:"#3cc3ff" }, 
-{ x: 0.067, y: 4.005, fill:"#49b6ff" }, 
-{ x: 0.069, y: 5.002, fill:"#db24ff" }, 
-{ x: 0.061, y: 6.003, fill:"#e718ff" }, 
-{ x: 0.060, y: 7.009, fill:"#55aaff" }, 
-{ x: 1.063, y: 0.001, fill:"#9e61ff" }, 
-{ x: 1.067, y: 1.006, fill:"#c33cff" }, 
-{ x: 1.068, y: 2.000, fill:"#49b6ff" }, 
-{ x: 1.067, y: 3.006, fill:"#18e7ff" }, 
-{ x: 1.069, y: 4.010, fill:"#db24ff" }, 
-{ x: 1.065, y: 5.004, fill:"#b649ff" }, 
-{ x: 1.061, y: 6.004, fill:"#55aaff" }, 
-{ x: 1.065, y: 7.000, fill:"#cf30ff" }, 
-{ x: 2.069, y: 0.007, fill:"#9e61ff" }, 
-{ x: 2.068, y: 1.006, fill:"#18e7ff" }, 
-{ x: 2.061, y: 2.007, fill:"#24dbff" }, 
-{ x: 2.064, y: 3.007, fill:"#e718ff" }, 
-{ x: 2.070, y: 4.003, fill:"#55aaff" }, 
-{ x: 2.063, y: 5.007, fill:"#3cc3ff" }, 
-{ x: 2.064, y: 6.004, fill:"#18e7ff" }, 
-{ x: 2.062, y: 7.001, fill:"#8679ff" }, 
-
-
-]
+'heat_map3':   [{"color": "#ffffd9", "x": -0.9999920323904307, "y": 0.00071724223227523}, {"color": "#f8fcc9", "x": -0.9999985285242806, "y": 0.20065874825895416}, {"color": "#f0f9b8", "x": -0.9999993074792999, "y": 0.4003570706283529}, {"color": "#e3f4b2", "x": -0.9999918717044983, "y": 0.6004277048330275}, {"color": "#d4eeb3", "x": -0.9999940014556246, "y": 0.8007281612831472}, {"color": "#c0e6b5", "x": -0.999991787723917, "y": 1.0007605151199803}, {"color": "#a2dbb8", "x": -0.9999999285672472, "y": 1.2004202568336726}, {"color": "#83cebb", "x": -0.9999953686378196, "y": 1.4000554995031127}, {"color": "#69c5be", "x": -0.999994585578679, "y": 1.600607770751444}, {"color": "#4ebbc2", "x": -0.99999171546805, "y": 1.8009418092681915}, {"color": "#3aaec3", "x": -0.9999987185214599, "y": 2.00023043067441}, {"color": "#2a9ec1", "x": -0.9999934084160292, "y": 2.200132473988817}, {"color": "#1d8ebf", "x": -0.9999977592136305, "y": 2.400574862587589}, {"color": "#1f78b4", "x": -0.9999983047627643, "y": 2.600782230151324}, {"color": "#2163aa", "x": -0.9999914302437389, "y": 2.800033674204503}, {"color": "#2350a1", "x": -0.9999946735519506, "y": 3.0007969513574437}, {"color": "#243f99", "x": -0.9999902486031884, "y": 3.2002742585931947}, {"color": "#203089", "x": -0.9999983089893664, "y": 3.4008767009301817}, {"color": "#142670", "x": -0.9999909081753624, "y": 3.6001975328894673}, {"color": "#081d58", "x": -0.999995584702573, "y": 3.800719232141692}]
 
 }
 
