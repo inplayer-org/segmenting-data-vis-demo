@@ -7,7 +7,7 @@ const themeRed =
 }
 const themeBlue =
 {
-  area:  { fill: "#c44ab1" },
+  area:  { fill: "#e4aab1" },
      stack:        { colorScale:"blue"} 
 
   

@@ -13,6 +13,9 @@ import { getData} from "./sample_data.js"
 import { themes} from "./themes.js"
 
 
+const get_center = function(datum){ 
+	return {x: datum.x, y:20+datum.y } }
+
 
 
 export  class ScatterMap extends React.Component {

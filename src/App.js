@@ -22,7 +22,6 @@ function App() {
       
       </header>
 
-      <div >
 <div >
 
 
@@ -32,22 +31,10 @@ function App() {
           
           <h2>Monetary (sum in dollars)</h2>
 
-        <AreaChart className="monetary"
-          themeName="themeRed"
-         />
-
-                   <h2>Count of logins </h2>
-                <AreaChart className="count" 
-          themeName="themeBlue"
-
-                 />
+        <AreaChart className="violin_plots"
+          themeName="themeRed"   />
 
 
-                           <h2>First transation (age in days)</h2>
-                <AreaChart className="first_trans" 
-                          themeName="themeGreen"
-
-                 />
 
                  <h2> Circlemap</h2>
                  <ScatterMap 
@@ -56,7 +43,6 @@ function App() {
                  />
 
 
-        </div>
         </div>
       
 
