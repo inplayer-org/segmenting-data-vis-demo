@@ -21,7 +21,43 @@ const get_center = function(datum){
 export  class ScatterMap extends React.Component {
 
 
-  
+constructor(props){
+  super(props);
+this.data = getData(props.className);
+this.classN = props.className;
+
+    this.state = {
+      scatterData: getData(props.className)
+    };
+
+}
+
+ getSpecData(classN) {
+
+
+    return  this.data[classN].map((datum) => {
+
+
+      return {
+        x: datum.x,
+        y: datum.y,
+        size: datum.color
+
+      }
+
+    }  )
+      }
+   componentDidMount() {
+    this.setStateInterval = window.setInterval(() => {
+      this.setState({
+      scatterData: getData(this.classN)
+      });
+    }, 3000);
+  }
+
+  componentWillUnmount() {
+    window.clearInterval(this.setStateInterval);
+  }
 
   render() {
 
@@ -45,7 +81,7 @@ export  class ScatterMap extends React.Component {
 
        
   <VictoryScatter 
-  data={getData(this.props.className) } 
+  data={this.state.scatterData[0] } 
   size={22}
 
        style={{ data: {fill:    ({ datum }) => datum.color }  }}
@@ -56,7 +92,7 @@ export  class ScatterMap extends React.Component {
 
 
   <VictoryScatter 
-  data={getData(this.props.className+"2") } 
+  data={this.state.scatterData[1] } 
   size={({datum}) => (11)  }
 
 	labels={({ datum }) => ( 
@@ -68,7 +104,7 @@ export  class ScatterMap extends React.Component {
 							
   } 
 	labelComponent={<VictoryTooltip dy={1} 
-      center={ (datum) => ( { x: datum.x, y: 40+datum.y } ) }
+      center={ (datum) => ( { x: datum.x, y: 10+datum.y } ) }
 
 	 />}
 
@@ -82,12 +118,7 @@ export  class ScatterMap extends React.Component {
 
 
 
-  <VictoryScatter 
-  data={getData(this.props.className+"3") } 
-  size={6}
 
-       style={{ data: {fill:    ({ datum }) => datum.color }  }}
-   />
 
 
 </VictoryGroup>

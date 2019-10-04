@@ -41,13 +41,16 @@ export  class AreaChart extends React.Component {
                             var leftData =data_row[0],rightData = data_row[1];
                              console.log("this", rightData);
                              console.log('kkk', leftData);
-                          return (      <VictoryChart key={"tet"}  animate={{ duration: 2500 }}
+                          return (      <VictoryChart key={"tet"} 
+                                    theme={themes['themeRed']}
+
+                           animate={{ duration: 2500 }}
 
                       >
 
                                   <VictoryStack>
                                    <VictoryArea        
-                                    theme={themes['themeGreen']}
+                                    theme={themes['themeRed']}
                           data= {leftData} interpolation={"basis"} 
                     events={[{
                       target: "data",
@@ -79,16 +82,28 @@ export  class AreaChart extends React.Component {
 
 
 
-       <VictoryAxis crossAxis
-       tickValues={[0.5,50,100,150,200]}
+       <VictoryAxis 
 
-   maxDomain={{ x: 201 }}
+
+
+dependentAxis
+
+       tickValues={[-0.4,-0.2,0,0.2,0.3]}
+offsetY={0}
+   maxDomain={{ x: 300 }}
    minDomain={{ x: 0.3 }}
 
   />
 
- <VictoryAxis dependentAxis
-   tickValues={[-0.1, -0.05 , 0, 0.05, 0.1]}
+ <VictoryAxis   
+
+
+crossAxis
+
+ offsetX={0}
+
+   tickValues={[3, -1 , 0, 1,3]}
+
 
    maxDomain={{ y: 0.3 }}
    minDomain={{ y: -0.3 }}

@@ -32,14 +32,14 @@ function App() {
           <h2>Monetary (sum in dollars)</h2>
 
         <AreaChart className="violin_plots"
-          themeName="themeRed"   />
+          themeName="themeBlue"   />
 
 
 
                  <h2> Circlemap</h2>
                  <ScatterMap 
                   className="heat_map"
-                   themeName="themeGreen"
+                   themeName="themeRed"
                  />
 
 
