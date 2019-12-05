@@ -103,10 +103,17 @@ this.classN = props.className;
 	)
 							
   } 
-	labelComponent={<VictoryTooltip dy={1} 
+	labelComponent={
+
+
+
+    <VictoryTooltip dy={1} 
       center={ (datum) => ( { x: datum.x, y: 10+datum.y } ) }
 
-	 />}
+	 />
+
+
+  }
 
        style={{ data: {fill:    ({ datum }) => datum.color },
 				labels: { fill: "white", fontSize: 8}
